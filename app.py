@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """Loan Qualifier Application.
 
 This is a command line application to match applicants with qualifying loans.
@@ -111,8 +111,8 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    csvpath = questionary.text("Enter a file path to write the qualifying loans to(.csv):").ask()
-    csvpath = Path(csvpath)
+    csvpath = questionary.confirm("would you like to save the loans to a csv file?:").ask()
+    csvpath = Path('../loan_qualifier_app/data/Qualifying_loans.csv')
     if not csvpath.exists():
         sys.exit(f"Oops! Can't find this path: {csvpath}")
     saved_csv = save_csv(csvpath=csvpath, data=qualifying_loans)

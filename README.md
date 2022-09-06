@@ -18,8 +18,8 @@ In this section, you should include detailed installation notes containing code 
 in order for this application to function you will have to have python3 installed
 dependencies are as follows: Fire, Questionary
 to install run: 
-''' pip install fire 
-pip install questionary ''' 
+''' pip install fire '''
+''' pip install questionary ''' 
 
 ---
 
@@ -44,3 +44,6 @@ In this section, list all the people who contribute to this project. You might w
 ## License
 
 When you share a project on a repository, especially a public one, it's important to choose the right license to specify what others can and can't with your source code and files. Use this section to include the license you want to use.
+
+this repository is licesnced under an academic free liscense 
+ afl-3.0
