@@ -1,0 +1,32 @@
+ 2207  cd 
+ 2208  cd Bootcamp-master
+ 2209  ls 
+ 2210  cd Desktop 
+ 2211  ls 
+ 2212  cd Bootcamp-Master
+ 2213  ls 
+ 2214  cd loan_qualifier_app 
+ 2215  git commit -m 
+ 2216  git push 
+ 2217  git commit-a
+ 2218  git commit -a
+ 2219  git commit -a 
+ 2220  cd Desktop 
+ 2221  cd Bootcamp-Master
+ 2222  cd boot-challenges 
+ 2223  cd loan_qualifier_app 
+ 2224  cd ..
+ 2225  cd loan_qualifier_app 
+ 2226  git stage
+ 2227  git add 
+ 2228  git add *
+ 2229  git commit -a
+ 2230  cd loan_qualifier_app
+ 2231  cd ../ loan_qualifier_app
+ 2232  cd ../loan_qualifier_app
+ 2233  cd Desktop/Bootcamp-master/loan_qualifier_app
+ 2234  history 4
+ 2235  python3 app.py
+ 2236  history 7 > terminal_history.txt
+ 2237  ls 
+ 2238  history 50  > terminal_history.txt
